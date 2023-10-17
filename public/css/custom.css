@@ -1,0 +1,145 @@
+/* Estilos de inicio de dia blade */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+    }
+
+
+
+
+/* estrucctura del area de gestion */
+.rowunocoluno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+
+.contenidoprincipal{
+    background-color: white;
+    margin-top: 2%;
+}
+
+/* footer */
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+/* Estilos custom de las tablas */
+
+/* Estilos para el botón CSV */
+#csv-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+/* Estilos para el botón Excel */
+#excel-button {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+/* Estilos para el botón PDF */
+#pdf-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+/* Estilos para el selector de filas */
+.dataTables_wrapper .dataTables_length {
+    float: left;
+    
+    margin: 20px;
+}
+
+/* Estilos para el campo de búsqueda */
+.dataTables_wrapper .dataTables_filter {
+    float: right;
+    margin: 20px;
+}
+
+/* Estilos para la información (info) */
+.dataTables_wrapper .dataTables_info {
+    float: left;
+    
+}
+
+/* Estilos para la paginación */
+.dataTables_wrapper .dataTables_paginate {
+    float: right;
+}
+
+
+/* estilos personalizados de inicio */
+
+.mi-div {
+    
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+}
+
+.mi-div a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
